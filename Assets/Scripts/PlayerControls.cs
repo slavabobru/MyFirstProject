@@ -14,6 +14,6 @@ public class PlayerControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector3(0, 0, 1) * Time.deltaTime * speed);
+        transform.Translate(new Vector3(0, 1, 1) * Time.deltaTime * speed);
     }
 }
